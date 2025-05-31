@@ -1,10 +1,25 @@
 @import "tailwindcss";
 
+@theme {
+  --color-primary: #27caa1;
+  --color-text-primary: var(--text-primary);
+  --color-text-nav: #464646;
+  --color-text-dday: #808284;
+}
+
+@font-face {
+  font-family: "Pretendard";
+  src: url("/fonts/PretendardVariable.ttf") format("truetype");
+  font-weight: 45 920;
+  font-display: swap;
+}
+
 :root {
-  --main-color: #f9f9f9;
+  --text-primary: #212529;
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Pretendard, sans-serif;
   line-height: 1.5;
+  color: var(--text-primary);
 }
