@@ -1,17 +1,19 @@
 export default function FundingSummary({
   per,
-  investAmt,
+  amount,
   dday,
 }: {
   per: number;
-  investAmt: number;
+  amount: number;
   dday: number;
 }) {
   return (
     <div className="mt-2.5 flex justify-between">
       <div>
         <span className="text-lg text-primary font-medium">{per}%</span>
-        <span className="text-sm ml-2">{investAmt.toLocaleString()}원</span>
+        {amount && (
+          <span className="text-sm ml-2">{amount.toLocaleString()}원</span>
+        )}
       </div>
       <div className="text-xs text-text-dday p-1 bg-gray-100 flex justify-center items-center">
         {dday}일 남음

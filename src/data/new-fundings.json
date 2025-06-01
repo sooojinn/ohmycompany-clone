@@ -1,0 +1,53 @@
+[
+  {
+    "projectType": "invest",
+    "projectSeq": 410,
+    "reservationSeq": "",
+    "builderSeq": "309942",
+    "thumbImageUrl": "https://ohmycompany.imgix.net/uploads/invest/main/MAIN_202505300148534404af.jpg?lossless=1&h=450",
+    "linkUrl": "/invest/410",
+    "projectName": "소상공인과 초기 창업자의 든든한 조력자, (주)경이로운",
+    "simpleText": "입소문TV와 효율적인 블로그마케팅으로 소상공인의 마케팅을 책임집니다.",
+    "fundingType": "01",
+    "stockTypeText": "주식",
+    "rewardFlag": "Y",
+    "incomeDeductionFlag": "N",
+    "investStartDate": "20250530140000",
+    "updateDate": "2025-05-30 15:29:49",
+    "mainImagePosition": ""
+  },
+  {
+    "projectType": "reward",
+    "projectSeq": 16345,
+    "reservationSeq": "",
+    "builderSeq": "298611",
+    "thumbImageUrl": "https://ohmycompany.imgix.net/uploads/reward/img/2025/05/16345/REWARD_2025053002302333083a.jpg?lossless=1&h=450",
+    "linkUrl": "/reward/16345",
+    "projectName": "포슬포슬 밤맛나는 제주도 단호박(밤호박)",
+    "simpleText": "제주도의 맛있는 밤호박을 소개합니다.",
+    "fundingType": "해당없음",
+    "stockTypeText": "해당없음",
+    "rewardFlag": "해당없음",
+    "incomeDeductionFlag": "해당없음",
+    "investStartDate": "20250530000000",
+    "updateDate": "2025-05-30 14:30:23",
+    "mainImagePosition": ""
+  },
+  {
+    "projectType": "reward",
+    "projectSeq": 16347,
+    "reservationSeq": "",
+    "builderSeq": "287548",
+    "thumbImageUrl": "https://ohmycompany.imgix.net/uploads/reward/img/2025/05/16347/REWARD_202505291117041796f5.jpg?lossless=1&h=450",
+    "linkUrl": "/reward/16347",
+    "projectName": "SEN(사회적경제신문)크루를 찾습니다.",
+    "simpleText": "사회적경제뉴스 창간 6주년 기념 프로젝트",
+    "fundingType": "해당없음",
+    "stockTypeText": "해당없음",
+    "rewardFlag": "해당없음",
+    "incomeDeductionFlag": "해당없음",
+    "investStartDate": "20250527000000",
+    "updateDate": "2025-05-29 11:17:04",
+    "mainImagePosition": ""
+  }
+]

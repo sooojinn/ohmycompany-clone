@@ -5,6 +5,7 @@
   --color-text-primary: var(--text-primary);
   --color-text-nav: #464646;
   --color-text-dday: #808284;
+  --color-bg-primary: #e7f9f5;
 }
 
 @font-face {
