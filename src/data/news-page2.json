@@ -1,0 +1,89 @@
+{
+  "paginationInfo": {
+    "currentPageNo": 2,
+    "recordCountPerPage": 6,
+    "pageSize": 5,
+    "totalRecordCount": 12,
+    "totalPageCount": 2,
+    "firstPageNoOnPageList": 1,
+    "lastPageNoOnPageList": 2,
+    "firstRecordIndex": 6,
+    "lastRecordIndex": 12,
+    "firstPageNo": 1,
+    "lastPageNo": 2
+  },
+  "list": [
+    {
+      "newsSeq": 32036,
+      "title": "30주기 이후 5개월, 함께 걸어온 길에 감사드리며 설문을 부탁드립니다",
+      "createDate": "2025-05-08",
+      "projectSeq": 14233,
+      "projectName": "다시, 생명과 평화: 늦봄30주기 기념위원으로 모십니다",
+      "projectType": "reward",
+      "memberSeq": "298591",
+      "memberName": "사단법인 늦봄문익환기념사업회",
+      "memberProfileUrl": "/uploads/member/profile/MEMBER_50e6164dcc61.jpg",
+      "thumbImageUrl": "https://ohmycompany.imgix.net/uploads/reward/img/2023/08/14233/REWARD_4066c64207af.jpg?lossless=1&h=450"
+    },
+    {
+      "newsSeq": 32035,
+      "title": "굿즈 제작 연기로 인한 사과 말씀",
+      "createDate": "2025-05-01",
+      "projectSeq": 16128,
+      "projectName": "제주항공참사, 세월호 등 참사추모 영화 프로젝트 그날들",
+      "projectType": "reward",
+      "memberSeq": "324831",
+      "memberName": "아방가르드 픽처스",
+      "memberProfileUrl": "/uploads/member/profile/MEMBER_305bb704cdaf.png",
+      "thumbImageUrl": "https://ohmycompany.imgix.net/uploads/reward/img/2025/01/16128/REWARD_53616dce7aa2.png?lossless=1&h=450"
+    },
+    {
+      "newsSeq": 32033,
+      "title": "리워드 배송 지연 안내",
+      "createDate": "2025-04-04",
+      "projectSeq": 16219,
+      "projectName": "코골이는 그만! 체온에 반응하는 코골이\u0026수면 중 입벌림 방지 비강확장기",
+      "projectType": "reward",
+      "memberSeq": "326941",
+      "memberName": "퍼유잠",
+      "memberProfileUrl": "/uploads/member/profile/MEMBER_FyIXqrrgxPPT.jpg",
+      "thumbImageUrl": "https://ohmycompany.imgix.net/uploads/reward/img/2025/03/16219/REWARD_20250320103829318004.jpg?lossless=1&h=450"
+    },
+    {
+      "newsSeq": 32032,
+      "title": "플랫폼:달 펀딩 달성! 후원자 분들에게 드리는 짧은 글.",
+      "createDate": "2025-04-01",
+      "projectSeq": 16199,
+      "projectName": "환대와 연결의 공간이 지속되도록, 플랫폼:달 !",
+      "projectType": "reward",
+      "memberSeq": "326412",
+      "memberName": "사단법인 여성환경연대",
+      "memberProfileUrl": "/uploads/member/profile/MEMBER_622cad2ec3fa.png",
+      "thumbImageUrl": "https://ohmycompany.imgix.net/uploads/reward/img/2025/02/16199/REWARD_5649e60dc2bd.JPG?lossless=1&h=450"
+    },
+    {
+      "newsSeq": 32031,
+      "title": "[리워드 1차 발송 안내]",
+      "createDate": "2025-03-10",
+      "projectSeq": 16161,
+      "projectName": "새봄을 맞이하는 액막이 명태와 입춘첩",
+      "projectType": "reward",
+      "memberSeq": "212022",
+      "memberName": "구로마을협동조합",
+      "memberProfileUrl": "/uploads/member/profile/MEMBER_621eba8f7eb1.jpg",
+      "thumbImageUrl": "https://ohmycompany.imgix.net/uploads/reward/img/2025/02/16161/REWARD_14a31170300e.jpg?lossless=1&h=450"
+    },
+    {
+      "newsSeq": 32030,
+      "title": "고래야! 해마야! 소풍가자~ 크라우드 펀딩 종료 ",
+      "createDate": "2025-03-05",
+      "projectSeq": 16165,
+      "projectName": "고래야! 해마야! 소풍가자~",
+      "projectType": "reward",
+      "memberSeq": "148406",
+      "memberName": "(주)우시산",
+      "memberProfileUrl": "/uploads/member/profile/MEMBER_47b6771a4f8d.jpg",
+      "thumbImageUrl": "https://ohmycompany.imgix.net/uploads/reward/img/2025/02/16165/REWARD_202502190436269719c6.jpg?lossless=1&h=450"
+    }
+  ]
+}

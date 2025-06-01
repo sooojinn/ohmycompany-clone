@@ -2,10 +2,11 @@
 
 import MiddleBanner from "@/components/home/banner/MiddleBanner";
 import SlideBannerContainer from "@/components/home/banner/SlideBannerContainer";
-import NewFundingSection from "@/components/home/section/NewFundingSection";
-import PopularFundingSection from "@/components/home/section/PopularFundingSection";
-import RecommendedFundingSection from "@/components/home/section/RecommendedfundingSection";
-import ReservationFundingSection from "@/components/home/section/ReservationFundingSection";
+import NewFundingSection from "@/components/home/section/organism/NewFundingSection";
+import NewsSection from "@/components/home/section/organism/NewsSection";
+import PopularFundingSection from "@/components/home/section/organism/PopularFundingSection";
+import RecommendedFundingSection from "@/components/home/section/organism/RecommendedfundingSection";
+import ReservationFundingSection from "@/components/home/section/organism/ReservationFundingSection";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <PopularFundingSection />
       <MiddleBanner />
       <ReservationFundingSection />
+      <NewsSection />
     </div>
   );
 }

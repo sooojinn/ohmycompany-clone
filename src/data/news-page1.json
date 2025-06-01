@@ -1,0 +1,89 @@
+{
+  "paginationInfo": {
+    "currentPageNo": 1,
+    "recordCountPerPage": 6,
+    "pageSize": 5,
+    "totalRecordCount": 12,
+    "totalPageCount": 2,
+    "firstPageNoOnPageList": 1,
+    "lastPageNoOnPageList": 2,
+    "firstRecordIndex": 0,
+    "lastRecordIndex": 6,
+    "firstPageNo": 1,
+    "lastPageNo": 2
+  },
+  "list": [
+    {
+      "newsSeq": 32043,
+      "title": "전세사기 정책연구 시민펠로우십의 첫번째 소식 전해드립니다!",
+      "createDate": "2025-05-26",
+      "projectSeq": 16308,
+      "projectName": "전세사기 문제, 대안을 만드는 여정에 함께해주세요!",
+      "projectType": "reward",
+      "memberSeq": "327839",
+      "memberName": "시민펠로우십 운영팀 ",
+      "memberProfileUrl": "/uploads/member/profile/MEMBER_6c370f4a2c02.png",
+      "thumbImageUrl": "https://ohmycompany.imgix.net/uploads/reward/img/2025/05/16308/REWARD_4d51d3c462c7.png?lossless=1&h=450"
+    },
+    {
+      "newsSeq": 32042,
+      "title": "2025 좋은날 크라우드 펀딩이 시작됐습니다!!",
+      "createDate": "2025-05-26",
+      "projectSeq": 16315,
+      "projectName": "발달장애인을 응원하는 유기농/공정무역/디카페인 드립백",
+      "projectType": "reward",
+      "memberSeq": "313551",
+      "memberName": "성미산좋은날협동조합",
+      "memberProfileUrl": "/uploads/member/profile/MEMBER_60611c3123e6.jpg",
+      "thumbImageUrl": "https://ohmycompany.imgix.net/uploads/reward/img/2025/05/16315/REWARD_20250520032223249275.jpg?lossless=1&h=450"
+    },
+    {
+      "newsSeq": 32041,
+      "title": "2025 좋은날 크라우드 펀딩이 시작됐습니다!!",
+      "createDate": "2025-05-26",
+      "projectSeq": 15595,
+      "projectName": "발달장애인들이 직접 만드는 친환경 유기농 커피",
+      "projectType": "reward",
+      "memberSeq": "313551",
+      "memberName": "성미산좋은날협동조합",
+      "memberProfileUrl": "/uploads/member/profile/MEMBER_60611c3123e6.jpg",
+      "thumbImageUrl": "https://ohmycompany.imgix.net/uploads/reward/img/2024/08/15595/REWARD_202409110210264992dd.jpg?lossless=1&h=450"
+    },
+    {
+      "newsSeq": 32040,
+      "title": "그리고 다시 시작하기에 앞서 전하는 감사의 글",
+      "createDate": "2025-05-21",
+      "projectSeq": 16251,
+      "projectName": "언니네텃밭, 농생태실천농장의 농장주가 되어주세요!",
+      "projectType": "reward",
+      "memberSeq": "327234",
+      "memberName": "언니네텃밭_봉강공동체",
+      "memberProfileUrl": "/uploads/member/profile/MEMBER_23a4d32056aa.jpg",
+      "thumbImageUrl": "https://ohmycompany.imgix.net/uploads/reward/img/2025/04/16251/REWARD_202504141022091495a6.jpg?lossless=1&h=450"
+    },
+    {
+      "newsSeq": 32039,
+      "title": "여의도 국회의사당에서 2025 순풍 베이비페어 참여했습니다.",
+      "createDate": "2025-05-19",
+      "projectSeq": 16247,
+      "projectName": "육아의 시작을 돕는 똑똑한 베이비 모니터 [베키 AI]",
+      "projectType": "reward",
+      "memberSeq": "327189",
+      "memberName": "다민테크놀로지",
+      "memberProfileUrl": "/uploads/member/profile/MEMBER_65bc5b740d35.jpg",
+      "thumbImageUrl": "https://ohmycompany.imgix.net/uploads/reward/img/2025/04/16247/REWARD_20250416054239103c48.jpg?lossless=1&h=450"
+    },
+    {
+      "newsSeq": 32037,
+      "title": "낭만랜드의 이야기에 따뜻한 관심을 가져주셔서 진심으로 감사드립니다. 낭만랜드의 일상을 볼수있는 링크 공유합니다.",
+      "createDate": "2025-05-16",
+      "projectSeq": 16293,
+      "projectName": "버려진 고양이들의 두번째 삶, 굿즈로 함께 만들어주세요",
+      "projectType": "reward",
+      "memberSeq": "327769",
+      "memberName": "생명소중 낭만랜드 고양이정원",
+      "memberProfileUrl": "/uploads/member/profile/MEMBER_63e942978201.png",
+      "thumbImageUrl": "https://ohmycompany.imgix.net/uploads/reward/img/2025/04/16293/REWARD_1839fc283038.jpg?lossless=1&h=450"
+    }
+  ]
+}

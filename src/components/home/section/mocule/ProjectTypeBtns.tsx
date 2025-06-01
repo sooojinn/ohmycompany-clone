@@ -1,4 +1,4 @@
-import ProjectTypeBtn from "./ProjectTypeBtn";
+import ProjectTypeBtn from "../atom/ProjectTypeBtn";
 
 export default function ProjectTypeBtns({
   projectType,

@@ -1,5 +1,5 @@
 import Link from "next/link";
-import ProjectTypeBtns from "./ProjectTypeBtns";
+import ProjectTypeBtns from "../mocule/ProjectTypeBtns";
 import RightArrow from "@/assets/icons/RightArrow";
 
 export default function HomeSection({
