@@ -1,17 +1,23 @@
+import Link from "next/link";
 import ProjectTypeBtns from "./ProjectTypeBtns";
+import RightArrow from "@/assets/icons/RightArrow";
 
 export default function HomeSection({
   title,
   children,
+  col = 4,
   projectType,
   onProjectTypeClick,
+  href,
 }: {
   title: string;
   children: React.ReactNode;
+  col?: number;
   projectType?: "reward" | "invest";
   onProjectTypeClick?: (
     value: React.SetStateAction<"reward" | "invest">
   ) => void;
+  href?: string;
 }) {
   return (
     <section className="mb-[68px]">
@@ -23,8 +29,18 @@ export default function HomeSection({
             onProjectTypeClick={onProjectTypeClick}
           />
         )}
+        {href && (
+          <Link href={href}>
+            <RightArrow />
+          </Link>
+        )}
       </div>
-      {children}
+      <div
+        style={{ gridTemplateColumns: `repeat(${col}, 1fr)` }}
+        className="grid gap-6"
+      >
+        {children}
+      </div>
     </section>
   );
 }

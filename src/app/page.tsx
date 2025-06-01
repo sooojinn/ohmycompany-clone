@@ -5,10 +5,11 @@ import SlideBannerContainer from "@/components/home/banner/SlideBannerContainer"
 import NewFundingSection from "@/components/home/section/NewFundingSection";
 import PopularFundingSection from "@/components/home/section/PopularFundingSection";
 import RecommendedFundingSection from "@/components/home/section/RecommendedfundingSection";
+import ReservationFundingSection from "@/components/home/section/ReservationFundingSection";
 
 export default function Home() {
   return (
-    <div className="pt-10 relative">
+    <div className="pt-10">
       <div className="mb-15">
         <SlideBannerContainer />
       </div>
@@ -16,6 +17,7 @@ export default function Home() {
       <NewFundingSection />
       <PopularFundingSection />
       <MiddleBanner />
+      <ReservationFundingSection />
     </div>
   );
 }

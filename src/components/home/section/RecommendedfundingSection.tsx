@@ -15,11 +15,9 @@ export default function RecommendedFundingSection() {
 
   return (
     <HomeSection title="지금, 참여해야 할 추천 펀딩">
-      <div className="grid gap-6 grid-cols-4">
-        {data.map((card: any) => {
-          return <FundingCard key={card.projectSeq} {...card} hideDesc />;
-        })}
-      </div>
+      {data.map((card: any) => {
+        return <FundingCard key={card.projectSeq} {...card} hideDesc />;
+      })}
     </HomeSection>
   );
 }

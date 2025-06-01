@@ -20,17 +20,15 @@ export default function PopularFundingSection() {
       projectType={projectType}
       onProjectTypeClick={setProjectType}
     >
-      <div className="grid gap-6 grid-cols-4">
-        {data.map((card: any) => {
-          return (
-            <FundingCard
-              key={card.projectSeq || card.investSeq}
-              {...card}
-              hideDesc
-            />
-          );
-        })}
-      </div>
+      {data.map((card: any) => {
+        return (
+          <FundingCard
+            key={card.projectSeq || card.investSeq}
+            {...card}
+            hideDesc
+          />
+        );
+      })}
     </HomeSection>
   );
 }

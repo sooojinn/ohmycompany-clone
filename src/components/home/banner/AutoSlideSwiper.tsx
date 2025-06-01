@@ -25,9 +25,9 @@ export default function AutoSlideSwiper({ data }: { data: BannerBigInfo[] }) {
       <SliderPagnation>
         {currentIndex + 1} / {data.length}
       </SliderPagnation>
-      {data.map((bannerInfo) => {
+      {data.map((bannerInfo, index) => {
         return (
-          <SwiperSlide>
+          <SwiperSlide key={`${index + 1}`}>
             <SlideBanner {...bannerInfo} />
           </SwiperSlide>
         );

@@ -4,7 +4,7 @@ import HeaderNavigation from "../mocule/HeaderNavigation";
 
 export default function Header() {
   return (
-    <div className="w-full py-5.5 shadow-sm">
+    <div className="w-screen py-5.5 shadow-sm">
       <header className="flex gap-10 w-[1110px] items-start m-auto">
         <Link href="/">
           <Image

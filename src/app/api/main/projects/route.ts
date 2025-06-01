@@ -3,6 +3,7 @@ import recommendFundings from "@/data/recommend-fundings.json";
 import newFundings from "@/data/new-fundings.json";
 import popularRewardFundings from "@/data/popular-reward-fundings.json";
 import popularInvestFundings from "@/data/popular-invest-fundings.json";
+import reservationFundings from "@/data/reservation-fundings.json";
 
 export async function GET(req: NextRequest) {
   const searchParams = req.nextUrl.searchParams;
@@ -17,4 +18,5 @@ export async function GET(req: NextRequest) {
     else if (projectType === "invest")
       return NextResponse.json(popularInvestFundings);
   }
+  if (category === "reservation") return NextResponse.json(reservationFundings);
 }
