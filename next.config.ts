@@ -8,6 +8,11 @@ const nextConfig: NextConfig = {
         hostname: "www.ohmycompany.com",
         pathname: "/uploads/**",
       },
+      {
+        protocol: "https",
+        hostname: "ohmycompany.imgix.net",
+        pathname: "/uploads/**",
+      },
     ],
   },
 };

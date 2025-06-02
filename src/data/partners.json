@@ -1,0 +1,48 @@
+[
+  {
+    "contestSeq": 755,
+    "partnershipCode": "WJC",
+    "contestName": "2025년 우리동네 크라우드 펀딩 지원사업",
+    "contestType": "P",
+    "thumbImageUrl": "https://ohmycompany.imgix.net/uploads/contest/CONTEST_20250306022045933eed.jpg",
+    "thumbImageSaveName": "CONTEST_20250306022045933eed.jpg",
+    "partnershipName": "중소벤처기업부",
+    "progressOrder": 0,
+    "displayOrder": 1,
+    "referenceKey": "WJC"
+  },
+  {
+    "contestSeq": 759,
+    "partnershipCode": "NK",
+    "contestName": "2025년 자연에서 온 풍요로운 펀딩",
+    "contestType": "P",
+    "thumbImageUrl": "https://ohmycompany.imgix.net/uploads/contest/CONTEST_202505140647577498d9.jpg",
+    "thumbImageSaveName": "CONTEST_202505140647577498d9.jpg",
+    "partnershipName": "농업정책보험금융원",
+    "progressOrder": 0,
+    "displayOrder": 2,
+    "referenceKey": "NK"
+  },
+  {
+    "contestSeq": 760,
+    "partnershipCode": "OAX",
+    "contestName": "2025 마포구 사회적경제 크라우드펀딩 기획전",
+    "contestType": "P",
+    "thumbImageUrl": "https://ohmycompany.imgix.net/uploads/contest/CONTEST_20250521120832719bc4.jpg",
+    "thumbImageSaveName": "CONTEST_20250521120832719bc4.jpg",
+    "partnershipName": "마포구사회적경제통합지원센터 ",
+    "progressOrder": 0,
+    "displayOrder": 3,
+    "referenceKey": "OAX"
+  },
+  {
+    "contestSeq": 758,
+    "partnershipCode": "AT",
+    "contestName": "2025년 농식품 크라우드펀딩 기획전 바로 슈퍼마켓",
+    "contestType": "E",
+    "thumbImageUrl": "https://ohmycompany.imgix.net/uploads/contest/CONTEST_2025051402022928842a.jpg",
+    "thumbImageSaveName": "CONTEST_2025051402022928842a.jpg",
+    "partnershipName": "농식품 기획전",
+    "progressOrder": 0
+  }
+]

@@ -8,12 +8,14 @@ export default function NewsSection() {
     useNewsPagination();
 
   return (
-    <HomeSection title="새로운 소식이 도착했어요" col={2}>
-      {list?.map(({ newsSeq, ...card }: any) => (
-        <NewsCard key={newsSeq} {...card} />
-      ))}
+    <div>
+      <HomeSection title="새로운 소식이 도착했어요" col={2}>
+        {list?.map(({ newsSeq, ...card }: any) => (
+          <NewsCard key={newsSeq} {...card} />
+        ))}
+      </HomeSection>
       {isLastPage || (
-        <div className="text-center col-span-full">
+        <div className="text-center mt-[30px]">
           <PaginationToggleButton
             onClick={() => setPageIndex((prev) => prev + 1)}
           >
@@ -22,10 +24,10 @@ export default function NewsSection() {
         </div>
       )}
       {isFirstPage || (
-        <div className="text-end col-span-full">
+        <div className="text-end mt-[30px]">
           <PaginationToggleButton onClick={reset}>접기</PaginationToggleButton>
         </div>
       )}
-    </HomeSection>
+    </div>
   );
 }

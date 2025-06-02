@@ -19,6 +19,10 @@
   --text-primary: #212529;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 body {
   font-family: Pretendard, sans-serif;
   line-height: 1.5;

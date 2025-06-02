@@ -27,7 +27,7 @@ export default function MiddleBanner() {
   const { imageUrl, imageSaveName, title, bannerUrl, communityDesc } = data;
 
   return (
-    <div className="relative left-1/2 -translate-x-1/2 w-screen h-[300px] bg-[#F2F9F7] mb-17">
+    <div className="relative left-1/2 -translate-x-1/2 w-screen h-[300px] bg-[#F2F9F7]">
       <div className="w-[1140px] h-full m-auto py-[35px] flex gap-15">
         {isSuccess && (
           <>

@@ -20,7 +20,7 @@ export default function HomeSection({
   href?: string;
 }) {
   return (
-    <section className="mb-[68px]">
+    <section>
       <div className="flex justify-between items-center">
         <p className="mb-5 text-[22px] font-semibold">{title}</p>
         {projectType && (
