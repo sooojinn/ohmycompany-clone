@@ -16,13 +16,13 @@ export default function SlideBanner({
         style={{ backgroundImage: `url(${imageUrl})` }}
       >
         <div
-          className="absolute left-10 bottom-10 z-20"
+          className="w-full absolute bottom-[25px] lg:bottom-10 max-lg:text-center lg:left-10 z-20"
           style={{ color: `${textColor}` }}
         >
-          <p className="text-[28px] font-bold mb-5 whitespace-pre-line">
+          <p className="text-[24px] lg:text-[28px] font-bold mb-2 lg:mb-5 whitespace-pre-line">
             {title}
           </p>
-          <p className="text-lg font-semibold">{communityDesc}</p>
+          <p className="text-4 lg:text-lg font-semibold">{communityDesc}</p>
         </div>
         <div
           style={{

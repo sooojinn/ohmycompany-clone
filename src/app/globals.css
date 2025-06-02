@@ -6,6 +6,7 @@
   --color-text-nav: #464646;
   --color-text-dday: #808284;
   --color-bg-primary: #e7f9f5;
+
   --animate-floating: floatY 5s ease-in-out infinite;
 }
 
@@ -44,5 +45,26 @@ body {
   }
   100% {
     transform: translateY(0);
+  }
+}
+
+@layer utilities {
+  .container-w {
+    width: 510px;
+  }
+  @media (min-width: 768px) {
+    .container-w {
+      width: 690px;
+    }
+  }
+  @media (min-width: 1024px) {
+    .container-w {
+      width: 930px;
+    }
+  }
+  @media (min-width: 1280px) {
+    .container-w {
+      width: 1110px;
+    }
   }
 }

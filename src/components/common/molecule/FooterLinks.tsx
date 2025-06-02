@@ -13,7 +13,7 @@ const footerLinks = [
 
 export default function FooterLinks() {
   return (
-    <ul className="mt-[25px] mb-2 -mx-[5px]">
+    <ul className="mt-[25px] mb-2 relative left-[-10px]">
       {footerLinks.map(({ label, href }) => (
         <li key={href} className="px-[5px] py-[3px] inline">
           <Link href={href} className="text-[13px] hover:underline p-[5px]">

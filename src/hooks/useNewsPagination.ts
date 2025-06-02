@@ -10,7 +10,7 @@ export default function useNewsPagination() {
     fetch(`/api/main/news?pageIndex=${pageIndex}&pageUnit=${PAGE_UNIT}`)
       .then((res) => res.json())
       .then((newData) => {
-        if (pageIndex === 1 || !data) {
+        if (pageIndex === 1) {
           setData(newData);
         } else {
           setData((prev: any) => {

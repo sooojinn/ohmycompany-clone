@@ -28,7 +28,7 @@ export default function MiddleBanner() {
 
   return (
     <div className="relative left-1/2 -translate-x-1/2 w-screen h-[300px] bg-[#F2F9F7]">
-      <div className="w-[1140px] h-full m-auto py-[35px] flex gap-15">
+      <div className="container-w h-full m-auto py-[35px] flex gap-15">
         {isSuccess && (
           <>
             <Link href={bannerUrl}>

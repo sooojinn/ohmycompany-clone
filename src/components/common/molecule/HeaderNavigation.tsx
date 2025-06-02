@@ -9,7 +9,7 @@ const navList = [
 
 export default function HeaderNavigation() {
   return (
-    <div className="flex gap-7 items-center">
+    <div className="flex gap-7 items-center max-lg:hidden">
       {navList.map(({ label, href }) => (
         <HeaderNav key={href} href={href}>
           {label}
