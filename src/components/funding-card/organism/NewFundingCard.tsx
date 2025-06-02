@@ -1,6 +1,6 @@
 import CardPanelLayout from "../atom/CardPanelLayout";
 import FundingTitle from "../atom/FundingTitle";
-import Thumbnail from "../mocule/Thumbnail";
+import Thumbnail from "../molecule/Thumbnail";
 
 export default function NewFundingCard({
   thumbImageUrl,

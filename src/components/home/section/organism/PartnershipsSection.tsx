@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import HomeSection from "./HomeSection";
-import PartnerCard from "../mocule/PartnerCard";
+import PartnerCard from "../molecule/PartnerCard";
 
 export default function PartnershipsSection() {
   const [data, setData] = useState([]);

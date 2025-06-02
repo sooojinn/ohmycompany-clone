@@ -1,19 +1,11 @@
-import Image from "next/image";
-import Link from "next/link";
-import HeaderNavigation from "../mocule/HeaderNavigation";
+import HeaderNavigation from "../molecule/HeaderNavigation";
+import Logo from "../atom/Logo";
 
 export default function Header() {
   return (
     <div className="w-screen py-5.5 shadow-sm">
       <header className="flex gap-10 w-[1110px] items-start m-auto">
-        <Link href="/">
-          <Image
-            src="https://www.ohmycompany.com/assets/img/common.logo.svg"
-            width={187}
-            height={33}
-            alt="ohmycompany"
-          />
-        </Link>
+        <Logo width={187} height={33} />
         <nav className="flex justify-between align-center flex-grow">
           <HeaderNavigation />
           <div className="flex gap-7 items-center text-sm">

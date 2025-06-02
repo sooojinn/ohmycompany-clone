@@ -1,9 +1,9 @@
 import CardPanelLayout from "../atom/CardPanelLayout";
 import FundingDesc from "../atom/FundingDesc";
 import FundingTitle from "../atom/FundingTitle";
-import BuilderProfile from "../mocule/BuilderProfile";
-import FundingSummary from "../mocule/FundingSummary";
-import Thumbnail from "../mocule/Thumbnail";
+import BuilderProfile from "../molecule/BuilderProfile";
+import FundingSummary from "../molecule/FundingSummary";
+import Thumbnail from "../molecule/Thumbnail";
 
 export default function FundingCard({
   projectName,

@@ -1,5 +1,6 @@
 "use client";
 
+import Footer from "@/components/common/organism/Footer";
 import MiddleBanner from "@/components/home/banner/MiddleBanner";
 import SlideBannerContainer from "@/components/home/banner/SlideBannerContainer";
 import NewFundingSection from "@/components/home/section/organism/NewFundingSection";
@@ -11,11 +12,11 @@ import ReservationFundingSection from "@/components/home/section/organism/Reserv
 
 export default function Home() {
   return (
-    <div className="pt-10 pb-[68px]">
+    <div className="pt-10">
       <div className="mb-15">
         <SlideBannerContainer />
       </div>
-      <div className="flex flex-col gap-[68px]">
+      <div className="flex flex-col gap-[68px] pb-[68px]">
         <RecommendedFundingSection />
         <NewFundingSection />
         <PopularFundingSection />
@@ -24,6 +25,7 @@ export default function Home() {
         <NewsSection />
         <PartnershipsSection />
       </div>
+      <Footer />
     </div>
   );
 }

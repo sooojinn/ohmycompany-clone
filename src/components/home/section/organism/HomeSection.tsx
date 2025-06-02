@@ -1,6 +1,6 @@
 import Link from "next/link";
-import ProjectTypeBtns from "../mocule/ProjectTypeBtns";
-import RightArrow from "@/assets/icons/RightArrow";
+import ProjectTypeBtns from "../molecule/ProjectTypeBtns";
+import ArrowIcon from "@/assets/icons/ArrowIcon";
 
 export default function HomeSection({
   title,
@@ -31,7 +31,7 @@ export default function HomeSection({
         )}
         {href && (
           <Link href={href}>
-            <RightArrow />
+            <ArrowIcon width={24} height={24} />
           </Link>
         )}
       </div>

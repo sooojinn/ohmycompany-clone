@@ -1,8 +1,8 @@
-import Image from "next/image";
 import CardPanelLayout from "../atom/CardPanelLayout";
 import FundingTitle from "../atom/FundingTitle";
-import BuilderProfile from "../mocule/BuilderProfile";
-import Thumbnail from "../mocule/Thumbnail";
+import BuilderProfile from "../molecule/BuilderProfile";
+import Thumbnail from "../molecule/Thumbnail";
+import BellIcon from "@/assets/icons/BellIcon";
 
 export default function ReservationFundingCard({
   memberImageUrl,
@@ -28,12 +28,7 @@ export default function ReservationFundingCard({
             {applyCnt}명 신청
           </span>
           <div className="w-11 h-11 rounded-full border border-gray-300 flex justify-center items-center cursor-pointer">
-            <Image
-              width={18}
-              height={18}
-              src="https://www.ohmycompany.com/assets/ico/component.reservation.bell.svg"
-              alt="알림"
-            />
+            <BellIcon />
           </div>
         </div>
       </CardPanelLayout>

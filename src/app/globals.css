@@ -6,6 +6,7 @@
   --color-text-nav: #464646;
   --color-text-dday: #808284;
   --color-bg-primary: #e7f9f5;
+  --animate-floating: floatY 5s ease-in-out infinite;
 }
 
 @font-face {
@@ -27,4 +28,21 @@ body {
   font-family: Pretendard, sans-serif;
   line-height: 1.5;
   color: var(--text-primary);
+}
+
+@keyframes floatY {
+  0%,
+  40% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-1.5rem);
+  }
+  50%,
+  90% {
+    transform: translateY(-1.5rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
