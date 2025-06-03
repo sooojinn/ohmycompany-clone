@@ -1,8 +1,8 @@
 "use client";
 
-import FundingCard from "@/components/funding-card/organism/FundingCard";
-import HomeSection from "./HomeSection";
 import { useEffect, useState } from "react";
+import HomeSectionTitle from "../molecule/HomeSectionTitle";
+import RecommendedFundingCard from "@/components/funding-card/organism/RecommendedFundingCard";
 
 export default function RecommendedFundingSection() {
   const [data, setData] = useState([]);
@@ -14,10 +14,15 @@ export default function RecommendedFundingSection() {
   }, []);
 
   return (
-    <HomeSection title="지금, 참여해야 할 추천 펀딩">
-      {data.map((card: any) => {
-        return <FundingCard key={card.projectSeq} {...card} hideDesc />;
-      })}
-    </HomeSection>
+    <div>
+      <HomeSectionTitle>지금, 참여해야 할 추천 펀딩</HomeSectionTitle>
+      <div className="w-full flex gap-6 max-lg:flex-col">
+        {data.map((card: any) => {
+          return (
+            <RecommendedFundingCard key={card.projectSeq} {...card} hideDesc />
+          );
+        })}
+      </div>
+    </div>
   );
 }

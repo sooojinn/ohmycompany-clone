@@ -2,13 +2,15 @@ export default function FundingSummary({
   per,
   amount,
   dday,
+  className,
 }: {
   per: number;
   amount: number;
   dday: number;
+  className?: string;
 }) {
   return (
-    <div className="mt-2.5 flex justify-between">
+    <div className={`mt-2.5 flex justify-between ${className}`}>
       <div>
         <span className="text-lg text-primary font-medium">{per}%</span>
         {amount && (

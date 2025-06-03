@@ -9,7 +9,7 @@ export default function ProjectTypeBtn({
 }) {
   return (
     <span
-      className={`px-3 py-1.5 rounded-full ${
+      className={`px-3 py-1.5 rounded-full cursor-pointer ${
         projectType === value
           ? "text-primary bg-bg-primary"
           : "border border-gray-200"

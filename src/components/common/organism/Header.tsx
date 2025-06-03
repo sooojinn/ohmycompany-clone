@@ -7,9 +7,9 @@ import Link from "next/link";
 export default function Header() {
   return (
     <div className="w-full py-5.5 shadow-sm">
-      <header className="flex justify-between m-auto container-w">
+      <header className="flex justify-between m-auto container-w px-3.75">
         <nav className="flex gap-10">
-          <Logo className="w-[156px] h-[24px] lg:w-[187px] lg:h-[33px]" />
+          <Logo className="w-39 h-6 lg:w-46.75 lg:h-8.25" />
           <HeaderNavigation />
         </nav>
         <nav className="flex gap-7 items-center text-sm">
@@ -21,7 +21,7 @@ export default function Header() {
           >
             로그인
           </Link>
-          <div className="py-2.75 px-3.5 bg-primary rounded-sm leading-[1.5] text-white cursor-pointer max-lg:hidden">
+          <div className="py-2.75 px-3.5 bg-primary rounded-sm leading-6 text-white cursor-pointer max-lg:hidden">
             펀딩 신청하기
           </div>
         </nav>

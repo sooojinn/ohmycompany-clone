@@ -10,7 +10,7 @@ export default function NewFundingCard({
   projectName: string;
 }) {
   return (
-    <div>
+    <div className="max-lg:shrink-0 lg:flex-1 max-sm:w-2/5 w-54 md:w-72">
       <Thumbnail imageUrl={thumbImageUrl} />
       <CardPanelLayout>
         <FundingTitle>{projectName}</FundingTitle>

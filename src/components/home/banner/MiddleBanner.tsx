@@ -27,31 +27,32 @@ export default function MiddleBanner() {
   const { imageUrl, imageSaveName, title, bannerUrl, communityDesc } = data;
 
   return (
-    <div className="relative left-1/2 -translate-x-1/2 w-screen h-[300px] bg-[#F2F9F7]">
-      <div className="container-w h-full m-auto py-[35px] flex gap-15">
+    <div className="relative left-1/2 -translate-x-1/2 w-screen h-auto lg:h-75 bg-[#F2F9F7]">
+      <div className="container-w h-full m-auto px-3.75 py-8.75 flex max-lg:flex-col gap-3 lg:gap-15">
         {isSuccess && (
           <>
-            <Link href={bannerUrl}>
+            <Link href={bannerUrl} className="flex-shrink-0 max-lg:order-2">
               <Image
                 src={imageUrl}
                 width={510}
                 height={230}
                 alt={imageSaveName}
+                className="rounded-2xl shadow-lg w-full lg:w-127.5 lg:h-57.5"
               />
             </Link>
-            <div className="py-8 flex flex-col justify-between">
+            <div className="lg:py-8 flex flex-col justify-between max-lg:order:1">
               <Link href={bannerUrl}>
-                <p className="text-2xl font-medium">{title}</p>
-                <p className="text-lg text-gray-600 mt-[5px]">
+                <p className="text-lg lg:text-2xl font-medium">{title}</p>
+                <p className="text-sm lg:text-lg text-gray-600 mt-1.25">
                   {communityDesc}
                 </p>
               </Link>
               <Link
                 href={bannerUrl}
-                className="px-4 py-2 w-fit bg-white text-gray-600 text-sm flex gap-2 items-center rounded-full border border-gray-200"
+                className="max-lg:hidden px-4 py-2 w-fit bg-white text-gray-600 text-sm flex gap-2 items-center rounded-full border border-gray-200"
               >
                 <span>지금 바로가기</span>
-                <ArrowIcon />
+                <ArrowIcon className="w-4 h-4" />
               </Link>
             </div>
           </>

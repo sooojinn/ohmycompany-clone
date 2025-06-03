@@ -15,7 +15,7 @@ export default function HeaderNav({
   return (
     <Link
       href={href}
-      className={`text-lg font-semibold leading-[1.5] ${
+      className={`text-lg font-semibold leading-6 ${
         isActive ? "text-primary" : "text-text-nav"
       }`}
     >

@@ -8,6 +8,11 @@
   --color-bg-primary: #e7f9f5;
 
   --animate-floating: floatY 5s ease-in-out infinite;
+
+  --breakpoint-xs: 375px;
+  --breakpoint-sm: 575px;
+  --breakpoint-lg: 990px;
+  --breakpoint-xl: 1200px;
 }
 
 @font-face {
@@ -37,11 +42,11 @@ body {
     transform: translateY(0);
   }
   50% {
-    transform: translateY(-1.5rem);
+    transform: translateY(-1.5em);
   }
   50%,
   90% {
-    transform: translateY(-1.5rem);
+    transform: translateY(-1.5em);
   }
   100% {
     transform: translateY(0);
@@ -50,21 +55,48 @@ body {
 
 @layer utilities {
   .container-w {
-    width: 510px;
+    width: 100%;
+  }
+  @media (min-width: 575px) {
+    .container-w {
+      width: 540px;
+    }
   }
   @media (min-width: 768px) {
     .container-w {
-      width: 690px;
+      width: 720px;
     }
   }
-  @media (min-width: 1024px) {
+  @media (min-width: 990px) {
     .container-w {
-      width: 930px;
+      width: 960px;
     }
   }
-  @media (min-width: 1280px) {
+  @media (min-width: 1200px) {
     .container-w {
-      width: 1110px;
+      width: 1140px;
     }
   }
+}
+
+@layer base {
+  html {
+    font-size: 16px;
+  }
+
+  @media (max-width: 375px) {
+    html {
+      font-size: 14px;
+    }
+  }
+
+  @media (max-width: 320px) {
+    html {
+      font-size: 12px;
+    }
+  }
+}
+
+@utility no-scrollbar {
+  @apply [scrollbar-width:none] [&::-webkit-scrollbar]:hidden;
 }

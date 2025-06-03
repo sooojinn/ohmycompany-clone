@@ -1,7 +1,7 @@
 import NewsCard from "@/components/funding-card/organism/NewsCard";
-import HomeSection from "./HomeSection";
 import useNewsPagination from "@/hooks/useNewsPagination";
 import PaginationToggleButton from "../atom/PaginationToggleButton";
+import HomeSectionTitle from "../molecule/HomeSectionTitle";
 
 export default function NewsSection() {
   const { list, setPageIndex, isFirstPage, isLastPage, reset } =
@@ -9,13 +9,14 @@ export default function NewsSection() {
 
   return (
     <div>
-      <HomeSection title="새로운 소식이 도착했어요" col={2}>
+      <HomeSectionTitle>새로운 소식이 도착했어요</HomeSectionTitle>
+      <div className="w-full flex flex-col gap-3 lg:grid lg:gap-6 lg:grid-cols-2">
         {list?.map(({ newsSeq, ...card }: any) => (
           <NewsCard key={newsSeq} {...card} />
         ))}
-      </HomeSection>
+      </div>
       {isLastPage || (
-        <div className="text-center mt-[30px]">
+        <div className="text-center mt-7.5">
           <PaginationToggleButton
             onClick={() => setPageIndex((prev) => prev + 1)}
           >
@@ -24,7 +25,7 @@ export default function NewsSection() {
         </div>
       )}
       {isFirstPage || (
-        <div className="text-end mt-[30px]">
+        <div className="text-end mt-7.5">
           <PaginationToggleButton onClick={reset}>접기</PaginationToggleButton>
         </div>
       )}

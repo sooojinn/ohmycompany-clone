@@ -31,8 +31,8 @@ const footerSnsList = [
 
 export default function FooterImgs() {
   return (
-    <div className="flex justify-between items-center pb-[5px]">
-      <Logo className="w-[164px] h-[29px]" />
+    <div className="flex justify-between items-center pb-1.25">
+      <Logo className="w-41 h-7.25" />
       <ul className="flex justify-center items-center gap-3">
         {footerSnsList.map(({ iconFilePath, iconFileName, href }) => {
           return (

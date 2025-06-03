@@ -1,11 +1,5 @@
-import Image from "next/image";
-
 export default function SearchIcon() {
   return (
-    <Image
-      src="/assets/icons/common.search.svg"
-      className="w-6 h-6"
-      alt="검색"
-    />
+    <span className="bg-[url(/assets/icons/common.search.svg)] w-6 h-6 bg-cover inline-block"></span>
   );
 }

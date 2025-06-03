@@ -11,10 +11,10 @@ export default function FooterNotice() {
   }, []);
 
   return (
-    <div className="flex gap-5 h-[1.5rem] overflow-hidden">
+    <div className="flex gap-5 h-6 mb-6.25 overflow-hidden max-md:text-sm">
       <Link
         href="https://www.ohmycompany.com/community/notice"
-        className="font-semibold"
+        className="font-semibold break-keep"
       >
         공지사항
       </Link>
@@ -23,6 +23,7 @@ export default function FooterNotice() {
           <li key={noticeSeq}>
             <Link
               href={`https://www.ohmycompany.com/community/notice/${noticeSeq}`}
+              className="line-clamp-1"
             >
               {title}
             </Link>

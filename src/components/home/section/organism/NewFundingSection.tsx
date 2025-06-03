@@ -1,8 +1,8 @@
 "use client";
 
-import HomeSection from "./HomeSection";
 import { useEffect, useState } from "react";
 import NewFundingCard from "@/components/funding-card/organism/NewFundingCard";
+import HomeSectionTitle from "../molecule/HomeSectionTitle";
 
 export default function NewFundingSection() {
   const [data, setData] = useState([]);
@@ -14,10 +14,13 @@ export default function NewFundingSection() {
   }, []);
 
   return (
-    <HomeSection title="신규 펀딩" col={3}>
-      {data.map((card: any) => {
-        return <NewFundingCard key={card.projectSeq} {...card} />;
-      })}
-    </HomeSection>
+    <div>
+      <HomeSectionTitle>신규 펀딩</HomeSectionTitle>
+      <div className="w-full flex gap-4 overflow-x-auto no-scrollbar">
+        {data.map((card: any) => {
+          return <NewFundingCard key={card.projectSeq} {...card} />;
+        })}
+      </div>
+    </div>
   );
 }

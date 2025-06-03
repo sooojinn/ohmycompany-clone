@@ -1,8 +1,7 @@
-export default function ArrowIcon({ width = 16, height = 16 }) {
+export default function ArrowIcon({ className }: { className: string }) {
   return (
     <span
-      style={{ width: width, height: height }}
-      className="bg-[url(/assets/icons/page.main.home.right.arrow.svg)] bg-cover inline-block"
+      className={`bg-[url(/assets/icons/page.main.home.right.arrow.svg)] bg-cover inline-block ${className}`}
     ></span>
   );
 }

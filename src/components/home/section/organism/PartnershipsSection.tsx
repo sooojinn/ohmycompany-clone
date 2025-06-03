@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import HomeSection from "./HomeSection";
-import PartnerCard from "../molecule/PartnerCard";
+import PartnerCard from "../../../funding-card/organism/PartnerCard";
+import HomeSectionTitle from "../molecule/HomeSectionTitle";
 
 export default function PartnershipsSection() {
   const [data, setData] = useState([]);
@@ -12,13 +12,15 @@ export default function PartnershipsSection() {
   }, []);
 
   return (
-    <HomeSection
-      title="오마이컴퍼니와 함께하는 파트너"
-      href="https://www.ohmycompany.com/partnership/partnerlist"
-    >
-      {data.map((card: any) => {
-        return <PartnerCard key={card.contestSeq} {...card} />;
-      })}
-    </HomeSection>
+    <div>
+      <HomeSectionTitle href="https://www.ohmycompany.com/partnership/partnerlist">
+        오마이컴퍼니와 함께하는 파트너
+      </HomeSectionTitle>
+      <div className="w-full flex gap-3 overflow-x-auto no-scrollbar">
+        {data.map((card: any) => {
+          return <PartnerCard key={card.contestSeq} {...card} />;
+        })}
+      </div>
+    </div>
   );
 }
