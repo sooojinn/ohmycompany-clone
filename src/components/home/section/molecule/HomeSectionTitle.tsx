@@ -17,7 +17,7 @@ export default function HomeSectionTitle({
 }) {
   return (
     <div className="flex justify-between items-center pl-0.5 mb-5">
-      <p className="text-lg lg:text-5.5 font-semibold">{children}</p>
+      <p className="text-lg lg:text-[1.375rem] font-semibold">{children}</p>
       {projectType && (
         <ProjectTypeBtns
           projectType={projectType}

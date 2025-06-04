@@ -12,7 +12,7 @@ export default function SlideBanner({
   return (
     <Link href={bannerUrl}>
       <div
-        className="w-full h-100 bg-cover bg-center rounded-4xl relative"
+        className="big-banner bg-cover bg-center relative"
         style={{ backgroundImage: `url(${imageUrl})` }}
       >
         <div

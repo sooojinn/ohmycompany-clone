@@ -36,20 +36,21 @@ body {
   color: var(--text-primary);
 }
 
-@keyframes floatY {
-  0%,
-  40% {
-    transform: translateY(0);
+@layer base {
+  html {
+    font-size: 16px;
   }
-  50% {
-    transform: translateY(-1.5em);
+
+  @media (max-width: 375px) {
+    html {
+      font-size: 14px;
+    }
   }
-  50%,
-  90% {
-    transform: translateY(-1.5em);
-  }
-  100% {
-    transform: translateY(0);
+
+  @media (max-width: 320px) {
+    html {
+      font-size: 12px;
+    }
   }
 }
 
@@ -79,24 +80,33 @@ body {
   }
 }
 
-@layer base {
-  html {
-    font-size: 16px;
+@keyframes floatY {
+  0%,
+  40% {
+    transform: translateY(0);
   }
-
-  @media (max-width: 375px) {
-    html {
-      font-size: 14px;
-    }
+  50% {
+    transform: translateY(-1.5em);
   }
+  50%,
+  90% {
+    transform: translateY(-1.5em);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
 
-  @media (max-width: 320px) {
-    html {
-      font-size: 12px;
-    }
+@layer components {
+  .big-banner {
+    @apply w-full h-100 rounded-4xl;
   }
 }
 
 @utility no-scrollbar {
   @apply [scrollbar-width:none] [&::-webkit-scrollbar]:hidden;
+}
+
+@utility skeleton {
+  @apply bg-gray-200 animate-pulse;
 }

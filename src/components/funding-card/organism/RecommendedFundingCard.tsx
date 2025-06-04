@@ -31,7 +31,7 @@ export default function RecommendedFundingCard({
         {builderName || memberName}
       </BuilderProfile>
       <Thumbnail imageUrl={thumbImageUrl} className="max-lg:w-32" />
-      <CardPanelLayout className="max-lg:pt-0 max-lg:flex-grow pr-2 pl-1.25 ">
+      <CardPanelLayout className="max-lg:pt-0 max-lg:flex-grow pr-2 pl-1.25">
         <BuilderName className="text-gray-500 lg:hidden">
           {builderName || memberName}
         </BuilderName>
